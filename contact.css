@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #243243;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+textarea[name=foo] {
+    resize: none;
+}
+
+footer{
+    background-color: #243243;
+    color: white;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+color: #555555;
+}
+input{
+padding: 15px;
+padding-right: 85px;
+border: none;
+background-color: #132233;
+border: 1px solid #224167;
+flex-wrap: wrap;
+
+}
+::placeholder{
+color: #AAAAAA;
+}
+.subscribe{
+padding: 15px 20px;
+background: white;
+color: #243243;
+border: none;
+transition: background-color .5s,color .5s ease-out;
+}
+.subscribe:hover{
+color:white;
+background-color: transparent;
+border: 1px solid white;
+}
+hr{
+width: 100%;
+}
+
+ul li a{
+text-decoration: none;
+color: white;
+font-style: italic;
+}
+ul li{
+padding-bottom: 20px;
+font-weight: 600;
+}

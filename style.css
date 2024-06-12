@@ -1,0 +1,287 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+ul , li , ol {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+html,body{
+    overflow-x: hidden;
+}
+    .buttons{
+        display: flex;
+        gap: 20px;
+    }
+    .buttons button{
+        padding: 15px 20px;
+    
+    }
+    .admission{
+        color: #FF0000;
+        border: 2px solid #FF0000;
+        background-color: transparent;
+        transition: background-color .5s, color .5s;
+        padding: 15px 25px;
+    }
+    .admission:hover{
+        color: white;
+        background-color: #FF0000;
+    }
+    .contact{
+        border: 2px solid #243243;
+        background-color: #243243;
+        color: white;
+        padding: 15px 25px;
+        transition: background-color .5s, color .5s;
+    }
+    .contact:hover{
+        border: 2px solid #243243;
+        background-color: transparent;
+        color: #243243;
+    }
+    header{
+        height: 90vh;
+        background-image: url(image/image\ 2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        
+    
+    }
+    header h1{
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    header p{
+        font-size: x-large;
+    }
+    .header-buttons{
+        display: flex;
+        gap: 30px;
+    }
+    header button{
+        border: 2px solid white;
+        background-color: white;
+        padding: 15px 25px;
+        color: #243243;
+        font-weight: 600;
+    }
+    header button:nth-of-type(2){
+        padding: 15px 35px;
+        background-color: transparent;
+        color: white;
+    }
+    .info{
+        display: flex;
+        gap: 20px;
+        font-size: small;
+        color: #FE0101;
+    }
+    .text h4{
+        font-weight: 600;
+    }
+    .freelancers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 50px 0px;
+    
+    }
+    .freelancers h1{
+        font-weight: 800;
+    }
+    .videos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .video{
+        position: relative;
+        
+    }
+    .play{
+        border: none;
+        background-color: white;
+        padding: 10px;  
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: x-large;
+        height: 50px;
+        width: 50px;
+        transform: translate(-50%,-50%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .testimonial{
+        background-image: url(image/bg\ 1.png);
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .testimonial-text{
+        color: white;
+    }
+    .testimonial-text h1{
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    .testimonial-text p{
+        font-size: large;
+        max-width: 100%;
+    }
+    .slider-box{
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .fa-star{
+        color: #FF970B;
+    }
+    .card-box{
+        background-image: url(image/bg\ 2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 22px;
+        color: white;
+        width: 250px;
+        border-radius: 10px;
+    }
+    .card-box h3{
+        margin: 10px 0px;
+    }
+    .circle{
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .facilities{
+        padding: 50px 0px;
+    
+    }
+    .box{
+        background-image: url(image/bg\ 2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 22px;
+        color: white;
+        border-radius: 20px;
+    }
+    .facilities h1,.faith h1{
+        color: #293D55;
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 50px 0px;
+    }
+    .gallery h1,.blog h1{
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+    .glory{
+        background-image: url(image/bg\ 3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    .glory h1{
+        font-size: 55px;
+        font-weight: 800;
+    }
+    .glory button .subscribe{
+        background: #243243;
+        padding: 15px 35px;
+        color: white;
+        border: none;
+        transition: background-color .5s,color .5s ease-out;
+    }
+    .faith{
+        margin: 90px 0px;
+    }
+    
+    .blog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    
+    footer{
+        background-color: #243243;
+        color: white;
+        padding: 50px;
+        align-items: center;
+        justify-content: center;
+}
+.color{
+    color: #555555;
+}
+input{
+    padding: 15px;
+    padding-right: 85px;
+    border: none;
+    background-color: #132233;
+    border: 1px solid #224167;
+
+}
+::placeholder{
+    color: #AAAAAA;
+}
+.subscribe{
+    padding: 15px 20px;
+    background: white;
+    color: #243243;
+    border: none;
+    transition: background-color .5s,color .5s ease-out;
+}
+.subscribe:hover{
+    color:white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+hr{
+    width: 100%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+ul li{
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+

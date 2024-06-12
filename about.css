@@ -1,0 +1,88 @@
+ul , li, ol{
+    margin: 0 !important;
+    padding-left: 20px !important;
+}
+.nav-item a{
+    font-weight: bolder;
+}
+
+.video{
+    position: relative;
+    
+}
+.play{
+    border: none;
+    background-color: white;
+    padding: 10px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: x-large;
+    height: 50px;
+    width: 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.glory h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+.contact-us{
+    color: white;
+    padding: 15px 35px;
+    background-color: #243243;
+    border: none;
+    transition: background-color .5s,color .5s ease-out;
+}
+
+footer{
+    background-color: #243243;
+    color: white;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.color{
+    color: #555555;
+}
+input{
+    padding: 15px;
+    padding-right: 85px;
+    border: none;
+    background-color: #132233;
+    border: 1px solid #224167;
+    flex-wrap: wrap;
+
+}
+::placeholder{
+    color: #AAAAAA;
+}
+.subscribe{
+    padding: 15px 20px;
+    background: white;
+    color: #243243;
+    border: none;
+    transition: background-color .5s,color .5s ease-out;
+}
+.subscribe:hover{
+    color:white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+hr{
+    width: 100%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+footer ul li{
+    padding-bottom: 20px;
+    font-weight: 600;
+}
